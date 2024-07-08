@@ -1,0 +1,285 @@
+body{
+    font-family:sans-serif ; 
+}
+
+.cabecalho{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    width: 100%;
+    margin: 0 auto; 
+
+}
+
+.logo__cabecalho{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+   
+}
+.texto__logo{
+    font-size: 28px;
+    display:flex
+    
+}
+   
+.cabecalho__item{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-left: 10vh;
+    
+    
+}
+    
+.cabecalho__item__menu{
+    text-decoration: none;
+    color: #667085;
+    font-size: 16px;
+    ;
+   
+}
+
+.cabecalho__botao__entar{
+    border: none; 
+    background: white;
+    color:#667085;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+.cabecalho__botao__cadastrar{
+    background: #8E2424;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cabecalho__botao__cadastrar:hover{
+    background: #a96666;
+}
+.conteudo{
+    
+    justify-content: center;
+    text-align: center;
+    width: 100%;    
+}
+
+.texto__conteudo{
+    color: #8E2424;
+    font-size: 17px;
+    font-weight: 400;  
+}
+
+.conteudo__titulo{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.conteudo__descricao{
+    font-size: 20px;
+    color: #667085;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;  
+}
+
+.conteudo__informacao{
+    display: flex;
+    justify-content: space-beteen;
+    text-align:left;
+    width: 60%;
+    margin: 0 auto;  
+}
+
+.texto__conteudo__informacao{
+    width: 50%;
+    padding: 20px;
+    margin-left: 0; 
+}
+
+.informacao__numero{
+    color: #8E2424;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.informacao__texto{
+    font-size: 16px;
+    font-weight: 500 ;
+}
+
+.informacao__texto__segundo{
+    color: #667085;
+    font-size: 14px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20vh;
+}
+
+.banner__informacao{
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 400;
+    background: #f3f3f4;
+    padding: 4px 10px 4px 10px;
+    border: none;
+    border-radius:7px;
+    cursor: pointer; 
+}
+
+.banner__informacao:hover{
+    background: #a96666;
+    color: white;
+}
+
+.banner__titulo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.banner__descricao{
+    font-size: 17px;
+    color: #667085;
+    font-weight: 400;
+}
+
+.banner__imagem{
+    width: 900px;   
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    width: 50%;;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 30px;
+    
+}
+
+.informacoes{   
+    border: #e7e7e9;
+    border-width: 1px;
+    border-style: solid; 
+    border-radius: 10px;
+    padding: 10px;  
+}    
+
+.titulo-vaga-card{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.titulo-vaga__descricao{
+    padding: 8px 0 8px 0;
+    color: #667085;
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+}
+
+
+.conteudo__final{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background: hsl(0, 37%, 96%);
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+    margin-top: 20vh;
+}
+
+.texto__conteudo__final{
+    color: #8E2424;
+    font-size: 14px;
+    margin-top: 5vh;
+}
+
+.conteudo__titulo__final{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0 10px 0 10px;
+}
+
+.conteudo__final__nome{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.conteudo__final__descricao{
+    color: #667085;
+    font-size: 14px;
+}
+
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vh;
+    background: #f9f9f9;
+
+    
+}
+
+.texto__formulario{
+    font-size: 28px;
+}
+
+.texto__formulario__descricao{
+    color: #667085;
+    font-size: 18px;
+    padding: 0 0 20px 0; 
+    
+}
+
+
+.formulario__form{
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    
+}
+
+.formulario__email{
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: solid 1px;
+    border-color: #e7e7e9;   
+}
+
+.formulario__botao{
+    background: #8E2424;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.conclusao{
+    color: #667085;
+    font-size: 12px;
+}
+    
+
